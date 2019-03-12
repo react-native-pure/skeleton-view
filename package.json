@@ -1,6 +1,6 @@
 {
   "name": "@react-native-pure/skeleton-view",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React Native骨架屏渲染",
   "main": "index.js",
   "scripts": {
