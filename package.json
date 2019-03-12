@@ -1,0 +1,32 @@
+{
+  "name": "@react-native-pure/skeleton-view",
+  "version": "1.0.0",
+  "description": "React Native骨架屏渲染",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-pure/skeleton-view.git"
+  },
+  "keywords": [
+    "skeleton"
+  ],
+  "author": "m860",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-native-pure/skeleton-view/issues"
+  },
+  "homepage": "https://github.com/react-native-pure/skeleton-view#readme",
+  "devDependencies": {
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
