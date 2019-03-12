@@ -17,7 +17,7 @@ type SkeletonTextProps = Text.propTypes & {
  *
  * @author m860
  */
-function SkeletonText(props: SkeletonTextProps,context) {
+function SkeletonText(props: SkeletonTextProps, context) {
     const nextProps = {
         ...props,
         ...(context.showSkeleton ? props.skeletonOption : {})
@@ -39,4 +39,4 @@ SkeletonText.defaultProps = {
     }
 };
 
-export default React.memo(SkeletonText);
+export default SkeletonText;
