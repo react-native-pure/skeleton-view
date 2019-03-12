@@ -17,10 +17,10 @@ type SkeletonTextProps = Text.propTypes & {
  *
  * @author m860
  */
-function SkeletonText(props: SkeletonTextProps) {
+function SkeletonText(props: SkeletonTextProps,context) {
     const nextProps = {
         ...props,
-        ...(this.context.showSkeleton ? props.skeletonOption : {})
+        ...(context.showSkeleton ? props.skeletonOption : {})
     };
     return <Text {...nextProps}></Text>
 }

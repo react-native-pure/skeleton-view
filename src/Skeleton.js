@@ -28,8 +28,8 @@ type SkeletonProps = {
  *
  * @author m860
  */
-function Skeleton(props: SkeletonProps) {
-    if (this.context.showSkeleton) {
+function Skeleton(props: SkeletonProps, context) {
+    if (context.showSkeleton) {
         return props.renderSkeleton ? props.renderSkeleton() : null;
     }
     return props.children;
