@@ -1,13 +1,9 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
-/**
- * @alias Skeleton.propTypes
- * @property children
- * @property renderSkeleton - 骨架的渲染
- */
 type SkeletonProps = {
     children: React.Element,
+    /**自定义骨架*/
     renderSkeleton?: () => React.Element
 };
 

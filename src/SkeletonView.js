@@ -1,13 +1,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
-/**
- * @alias SkeletonView.propTypes
- * @property show - 是否显示骨架
- * @property children
- */
 type SkeletonViewProps = {
-    //是否显示skeleton,默认是`true`
+    /**是否显示skeleton,默认是`true`*/
     show: boolean,
     children: React.Node
 };
