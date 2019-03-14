@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 
 type SkeletonProps = {
     children: React.Element,
-    /**自定义骨架*/
     renderSkeleton?: () => React.Element
 };
 

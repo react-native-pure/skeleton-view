@@ -2,9 +2,8 @@ import * as React from "react"
 import PropTypes from "prop-types"
 
 type SkeletonViewProps = {
-    /**是否显示skeleton,默认是`true`*/
     show: boolean,
-    children: React.Node
+    children: React.Element
 };
 
 /**
